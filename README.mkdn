@@ -1,9 +1,9 @@
-LineageOS
-===========
+LightningFastRoms
+=================
 
 Submitting Patches
 ------------------
-Patches are always welcome!  Please submit your patches via LineageOS Gerrit!
+Patches are always welcome!  Please submit your patches via LightningFastRoms Github!
 You can do this by using these commands:
 
     (From root android directory)
@@ -26,16 +26,16 @@ To view the status of your and others' patches, visit [LineageOS Code Review](ht
 Getting Started
 ---------------
 
-To get started with Android/LineageOS, you'll need to get
+To get started with Android/LineageOS/LightningFastRoms, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the LightningFastRoms trees, use a command like this:
 
-    repo init -u git://github.com/LineageOS/android.git -b cm-14.1
+    repo init --depth=1 -u git://github.com/LightningFastRoms/android.git -b cm-14.1
 
 Then to sync up:
 
-    repo sync
+    repo sync -c --force-sync 
 
 Please see the [LineageOS Wiki](http://wiki.lineageos.org/) for building instructions, by device.
 

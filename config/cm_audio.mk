@@ -10,7 +10,8 @@ UI_PATH := vendor/cm/prebuilt/common/media/audio/ui
 # Alarms
 PRODUCT_COPY_FILES += \
     $(ALARM_PATH)/CyanAlarm.ogg:system/media/audio/alarms/CyanAlarm.ogg \
-    $(ALARM_PATH)/NuclearLaunch.ogg:system/media/audio/alarms/NuclearLaunch.ogg
+    $(ALARM_PATH)/NuclearLaunch.ogg:system/media/audio/alarms/NuclearLaunch.ogg \
+    $(ALARM_PATH)/Smooth.ogg:system/media/audio/alarms/Smooth.ogg
 
 # Notifications
 PRODUCT_COPY_FILES += \

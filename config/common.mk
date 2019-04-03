@@ -120,7 +120,7 @@ PRODUCT_PACKAGES += \
     CMSettingsProvider \
     LightningSetupWizard \
     Eleven \
-    Launcher3 \
+    PixelHome \
     Updater \
     WallpaperPicker \
     WeatherProvider

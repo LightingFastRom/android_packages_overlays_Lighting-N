@@ -9,7 +9,7 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)
 include $(BUILD_PREBUILT)
 
-# Add iamsj7/iPixel-Launcher as Prebuilt for now will ad as source in newer android versions
+# Adding iamsj7/iPixel-Launcher as Prebuilt for now will ad as source in newer android versions
 include $(CLEAR_VARS)
 LOCAL_MODULE := PixelHome
 LOCAL_MODULE_OWNER := lineage

@@ -1,4 +1,4 @@
-PRODUCT_BRAND ?= LightningFastRoms
+PRODUCT_BRAND ?= LineageOS
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
@@ -107,6 +107,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libemoji \
     LiveWallpapersPicker \
+	PhotoTable \
     Terminal
 
 # Include explicitly to work around GMS issues
@@ -121,13 +122,14 @@ PRODUCT_PACKAGES += \
     LightningSetupWizard \
     Eleven \
     PixelHome \
+	Trebuchet \
     Updater \
     WallpaperPicker \
     WeatherProvider
 
 # Exchange support
-#PRODUCT_PACKAGES += \
-    #Exchange2
+PRODUCT_PACKAGES += \
+    Exchange2
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \

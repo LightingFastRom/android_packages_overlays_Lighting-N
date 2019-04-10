@@ -121,8 +121,7 @@ PRODUCT_PACKAGES += \
     CMSettingsProvider \
     LightningSetupWizard \
     Eleven \
-    PixelHome \
-	Trebuchet \
+    Pixelated \
     Updater \
     WallpaperPicker \
     WeatherProvider

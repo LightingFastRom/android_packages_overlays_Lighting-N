@@ -223,9 +223,9 @@ ifeq ($(DEVICE_SUPPORT_DJ),true)
         GoogleIcons \
         OpenCamera
 
-    IS_PERSONAL := "Personal"
+    IS_PERSONAL := Personal
 else
-    IS_PERSONAL := "XDA BUILD"
+    IS_PERSONAL := XDA-BUILD
 endif
 
 # Conditionally build in su
@@ -260,10 +260,11 @@ endif
 
 # Conditionally build in OpenGapps
 ifeq ($(WITH_GAPPS), true)
-    HAS_GAPPS := "Sweetened"
+    HAS_GAPPS := Sweetened
 else
-    HAS_GAPPS := "Unsweetened"
+    HAS_GAPPS := Unsweetened
 endif
+
 # Filter out random types, so it'll reset to UNOFFICIAL
 ifeq ($(filter RELEASE NIGHTLY SNAPSHOT EXPERIMENTAL,$(CM_BUILDTYPE)),)
     CM_BUILDTYPE :=
@@ -321,7 +322,7 @@ else
         ifeq ($(LINEAGE_VERSION_APPEND_TIME_OF_DAY), TRUE)
             LINEAGE_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d_%H%M%S)-$(CM_BUILDTYPE)$(CM_EXTRAVERSION)-$(CM_BUILD)-$(HAS_GAPPS)-$(IS_PERSONAL)
         else
-            LINEAGE_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)$(CM_EXTRAVERSION)-$(CM_BUILD)
+            LINEAGE_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)$(CM_EXTRAVERSION)-$(CM_BUILD)-$(HAS_GAPPS)-$(IS_PERSONAL)
         endif
     else
         ifeq ($(LINEAGE_VERSION_APPEND_TIME_OF_DAY), TRUE)

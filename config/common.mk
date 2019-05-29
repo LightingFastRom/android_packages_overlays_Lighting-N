@@ -122,6 +122,7 @@ PRODUCT_PACKAGES += \
     LightningSetupWizard \
     Eleven \
     Pixelated \
+    SetupWizard \
     Updater \
     WallpaperPicker \
     WeatherProvider

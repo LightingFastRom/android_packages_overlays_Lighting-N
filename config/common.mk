@@ -122,7 +122,7 @@ PRODUCT_PACKAGES += \
     LightningSetupWizard \
     Eleven \
     Pixelated \
-    SetupWizard \
+    OpenCamera \
     Updater \
     WallpaperPicker \
     WeatherProvider
@@ -221,9 +221,7 @@ PRODUCT_PACKAGES += \
 ifeq ($(DEVICE_SUPPORT_DJ),true)
     PRODUCT_PACKAGES += \
         HackersKeyboard \
-        GoogleIcons \
-        OpenCamera
-
+        GoogleIcons
     IS_PERSONAL := Personal
 else
     IS_PERSONAL := XDA-BUILD

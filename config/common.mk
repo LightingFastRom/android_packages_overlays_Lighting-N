@@ -220,8 +220,7 @@ PRODUCT_PACKAGES += \
 
 ifeq ($(DEVICE_SUPPORT_DJ),true)
     PRODUCT_PACKAGES += \
-        HackersKeyboard \
-        GoogleIcons
+        HackersKeyboard
     IS_PERSONAL := Personal
 else
     IS_PERSONAL := XDA-BUILD

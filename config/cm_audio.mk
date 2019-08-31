@@ -12,8 +12,8 @@ PRODUCT_COPY_FILES += \
     $(ALARM_PATH)/CyanAlarm.ogg:system/media/audio/alarms/CyanAlarm.ogg \
     $(ALARM_PATH)/NuclearLaunch.ogg:system/media/audio/alarms/NuclearLaunch.ogg \
     $(ALARM_PATH)/Smooth.ogg:system/media/audio/alarms/Smooth.ogg \
-	$(NOTIFICATION_PATH)/Rang.ogg:system/media/audio/alarms/PowerOn.ogg \
-    $(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/alarms/PowerOff.ogg
+	$(ALARM_PATH)/PowerOn.ogg:system/media/audio/alarms/PowerOn.ogg \
+    $(ALARM_PATH)/PowerOff.ogg:system/media/audio/alarms/PowerOff.ogg
 
 # Notifications
 PRODUCT_COPY_FILES += \
@@ -25,8 +25,8 @@ PRODUCT_COPY_FILES += \
     $(NOTIFICATION_PATH)/Pong.ogg:system/media/audio/notifications/Pong.ogg \
     $(NOTIFICATION_PATH)/Rang.ogg:system/media/audio/notifications/Rang.ogg \
     $(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/Stone.ogg \
-	$(NOTIFICATION_PATH)/Rang.ogg:system/media/audio/notifications/PowerOn.ogg \
-    $(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/PowerOff.ogg
+	$(NOTIFICATION_PATH)/PowerOn.ogg:system/media/audio/notifications/PowerOn.ogg \
+    $(NOTIFICATION_PATH)/PowerOff.ogg:system/media/audio/notifications/PowerOff.ogg
 
 # Ringtones
 ifeq ($(TARGET_NEEDS_BOOSTED_SOUNDS),true)

@@ -124,8 +124,7 @@ PRODUCT_PACKAGES += \
     Pixelated \
     OpenCamera \
     Updater \
-    WallpaperPicker \
-    WeatherProvider
+    WallpaperPicker
 
 # Exchange support
 PRODUCT_PACKAGES += \
